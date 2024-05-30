@@ -31,6 +31,10 @@ export const TimerContainer = styled.div`
   background: ${backgroundImage}
   background-size: cover;
   font-size: 2em;
+
+  @media (max-width: 768px) {
+    font-size: 1.5em;
+  }
 `;
 
 export const ButtonContainer = styled.div`
@@ -65,6 +69,12 @@ export const TimerButton = styled.button`
     background-color: #ccc;
     color: #666;
   }
+
+  @media (max-width: 768px) {
+    font-size: 0.8em;
+    width: 120px;
+    height: 40px;
+  }
 `;
 
 export const StyledInput = styled.input`
@@ -79,4 +89,8 @@ export const StyledInput = styled.input`
   box-sizing: border-box;
   align-self: center;
   text-align: center;
+
+  @media (max-width: 768px) {
+    font-size: 1.2em;
+  }
 `;
