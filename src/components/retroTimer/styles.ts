@@ -5,7 +5,7 @@ const commonStyles = `
   font-family: 'Roboto', sans-serif;
 `;
 
-const backgroundImage = "url('../../assets/retro-background.jpg') no-repeat center center fixed;";
+const backgroundImage = "url('../../../public/retro-background.jpg') no-repeat center center fixed;";
 
 export const TimerBackground = styled.div`
   position: fixed;
