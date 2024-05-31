@@ -1,5 +1,5 @@
 import './App.css'
-import Timer from './components/mainFrame/mainFrame';
+import Timer from './components/retroTimer/Timer';
 
 function App() {
 
